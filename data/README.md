@@ -1,0 +1,1 @@
+This data set is taken from https://github.com/MinhasKamal/DeepGenderRecognizer. Minas Kamal gathered these images from LFW dataset and different magzines. It is a quite small dataset, feel free to use a larger dataset for better performance.

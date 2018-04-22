@@ -15,7 +15,7 @@ Project requirements:
 The ipython notebook `nn_classifier.ipynb` contains code to train and export the NN, and python script `mf_reco_live.py` detects the faces (using opencv) and classifies them on a live camera feed using exported model which is served by tensorflow-serving.
 To run the live classifier, you must have model being server by tensorflow-serving on port 9000. To learn more about tensorflow-serving see <https://www.tensorflow.org/serving/> and <https://github.com/tensorflow/serving/blob/master/tensorflow_serving/g3doc/serving_basic.md>.
 
-`models/1524339561` contains the model that I trained and exported, and can be used directly.
+`models/NN/1524339561` contains the model that I trained and exported, and can be used directly.
 
 The data set used is taken from <https://github.com/MinhasKamal/DeepGenderRecognizer>. Minas Kamal gathered these images from LFW dataset and different magzines. It is a quite small dataset, feel free to use a larger dataset for better performance.
 

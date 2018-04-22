@@ -6,7 +6,7 @@ from tensorflow_serving.apis import classification_pb2
 from grpc.beta import implementations
 
 
-face_cascade = cv2.CascadeClassifier('../data/models/opencv/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('./models/opencv/haarcascade_frontalface_default.xml')
 
 def get_prediction(img):
     channel = implementations.insecure_channel("localhost", 9000)
