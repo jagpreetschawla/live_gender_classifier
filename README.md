@@ -19,4 +19,6 @@ To run the live classifier, you must have model being server by tensorflow-servi
 
 The data set used is taken from <https://github.com/MinhasKamal/DeepGenderRecognizer>. Minas Kamal gathered these images from LFW dataset and different magzines. It is a quite small dataset, feel free to use a larger dataset for better performance.
 
-A step by step guide for training this NN can be found [here](http://www.cylopsis.com/post/neural-network/gender-classification/).
+A step by step guide for training this NN can be found on my [blog post](http://www.cylopsis.com/post/computer-vision/gender-classification/).
+
+I also wrote about tensorflow-serving setup and live realtime face classification in more details [here](http://www.cylopsis.com/post/computer-vision/live-gender-classification/).
